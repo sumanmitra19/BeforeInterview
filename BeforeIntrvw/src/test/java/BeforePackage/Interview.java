@@ -18,7 +18,7 @@ public class Interview {
 		dr.get("https://pi.cashpoint.com");
 		dr.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		dr.findElement(By.id("username")).sendKeys("pitest1");
-		dr.findElement(By.id("passord")).sendKeys("$Pitest#1");
+		dr.findElement(By.id("password")).sendKeys("$Pitest#1");
 		dr.findElement(By.id("submit")).click();
 		System.out.println("Test Case has been finished");
 	}
