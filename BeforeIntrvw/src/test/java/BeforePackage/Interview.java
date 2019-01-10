@@ -12,7 +12,7 @@ public class Interview {
 	@Test
 	public void login()
 	{
-		System.out.println("Test Case started");
+		System.out.println("Test Case has been started");
 		System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\Softy\\Cell\\Drivers\\Chrome\\chromedriver.exe");
 		WebDriver dr = new ChromeDriver();
 		dr.get("https://pi.cashpoint.com");
